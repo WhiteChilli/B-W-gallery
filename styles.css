@@ -1,0 +1,48 @@
+ img {
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  transition: 0.3s linear;
+}
+ img:hover {
+  filter: grayscale(0);
+}
+
+[class*="col"] {
+  /* background-color: #33b5e5;
+  border: 2px solid white;
+  color: white; */
+  text-align: center;
+  margin: .3em;
+}
+
+/* [class*="con"] {
+  background-color: #9e33e5;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+} */
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row {
+  margin-bottom: .3em;
+  text-align: center;
+}
+
+.hd {
+  text-align: center;
+  margin: 1em;
+}
+
+.bg-dark {
+  text-align: center;
+  background-color: rgb(108, 108, 108);
+  color:rgb(155, 154, 154);
+  border-radius: 5px;
+  padding: 1em;
+}
